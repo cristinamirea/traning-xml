@@ -21,11 +21,11 @@ public class CsvWriter {
                 .withHeader();
 
         String csv = mapper.writer(schema).writeValueAsString(invoice);
-        File file = new File("/Users/user/Documents/tasks/invoice.csv");
+        File file = new File("/Users/user/Desktop/invoice.csv");
         if (!file.exists()) {
             file.createNewFile();
         }
-        try (PrintWriter out = new PrintWriter(file.getName())) {
+        try (PrintWriter out = new PrintWriter(file.getPath())) {
             out.write(csv);
         } catch (FileNotFoundException e) {
            e.printStackTrace();
