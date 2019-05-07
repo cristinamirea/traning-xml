@@ -6,7 +6,7 @@
 //
 
 
-package generated;
+package com.dp.test.generated.generated;
 
 import javax.xml.bind.annotation.XmlRegistry;
 

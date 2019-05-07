@@ -1,4 +1,4 @@
-package com.dp.test;
+package com.dp.test.java.com.dp;
 
 
 import org.junit.Test;
