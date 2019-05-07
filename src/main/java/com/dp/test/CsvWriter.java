@@ -32,4 +32,6 @@ public class CsvWriter {
         }
 
     }
+
+    // o noua functie ce foloseste StringBuilder in loc de csv Mapper
 }
