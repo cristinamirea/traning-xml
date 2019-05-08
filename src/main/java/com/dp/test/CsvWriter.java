@@ -1,6 +1,6 @@
 package com.dp.test;
 
-import generated.Invoice;
+import com.dp.test.generated.generated.Invoice;
 
 import java.io.*;
 

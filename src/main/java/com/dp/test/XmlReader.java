@@ -1,6 +1,6 @@
 package com.dp.test;
 
-import generated.Invoice;
+import com.dp.test.generated.generated.Invoice;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
